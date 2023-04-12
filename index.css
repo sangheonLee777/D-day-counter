@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  width: 65px;
+  margin: 10px 0;
+}
+
+.d-day-container {
+  display: flex;
+  padding: 20px 0;
+  background-color: tomato;
+  width: 190px;
+  border-radius: 10px;
+  color: white;
+}
+
+.d-day-child-container {
+  margin: 0 10px;
+}
+
+.but {
+  font-size: 1.3rem;
+}

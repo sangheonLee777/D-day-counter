@@ -8,12 +8,31 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <form>
-      <input class="target-year" type="text" />
-      <input class="target-month" type="text" />
+    <h1 class="title">D-Day</h1>
+    <div class="d-day-container">
+      <div class="d-day-child-container">
+        <span class="days">0</span>
+        <span>일</span>
+      </div>
+      <div>
+        <span class="hours">0</span>
+        <span>시간</span>
+      </div>
+      <div class="d-day-child-container">
+        <span class="minutes">0</span>
+        <span>분</span>
+      </div>
+      <div class="d-day-child-container">
+        <span class="seconds">0</span>
+        <span>초</span>
+      </div>
+    </div>
+    <div class="target-selector">
+      <input class="target-year" type="text" /> -
+      <input class="target-month" type="text" /> -
       <input class="target-date" type="text" />
-      <button onclick="dat()" class="but">button</button>
-    </form>
+    </div>
+    <button class="but">count start</button>
 
     <script src="./index.js"></script>
   </body>

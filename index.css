@@ -23,3 +23,7 @@ input {
 .but {
   font-size: 1.3rem;
 }
+
+.d-day-message {
+  margin: 10px 0;
+}

@@ -20,7 +20,8 @@ input {
   margin: 0 10px;
 }
 
-.but {
+.but,
+.timer-finish {
   font-size: 1.3rem;
 }
 
